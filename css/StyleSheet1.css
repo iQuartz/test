@@ -1,0 +1,74 @@
+﻿@font-face {
+    font-family: 'IconicStroke';
+    src: url('../font/sosa-regular-webfont.eot');
+    src: url('../font/sosa-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/sosa-regular-webfont.woff') format('woff'),
+         url('../font/sosa-regular-webfont.ttf') format('truetype'),
+         url('../font/sosa-regular-webfont.svg#IconicStrokeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iconic
+{
+    color: #FFFFFF;
+    font-family: 'Microsoft Sans Serif';
+    text-decoration:none;
+}
+.rotate
+{
+    font-size: 25px;
+    font-family: "IconicStroke";
+}
+
+.expan {
+	margin:100px auto;
+	width:200px;
+}
+.expan ul {
+	font-weight:900;
+}
+.expan ul li {
+	position:relative;
+	list-style:none;
+	cursor:pointer;
+}
+.expan ul li ul {
+	position:absolute;
+	left:0;
+	right:0;
+}
+.expan ul .clicker {
+	background:#2284B5;
+	color:#FFF;
+}
+.expan ul .clicker:hover, .expan ul .active
+{
+    background: #196F9A;
+    color: #FFFFFF;
+}
+.expan img {
+	position:absolute;
+	top:9px;
+	left:12px;
+}
+.expan ul li a {
+	transition:background-color 0.2s ease-in-out;
+	-webkit-transition:background-color 0.2s ease-in-out;
+	-moz-transition:background-color 0.2s ease-in-out;
+	display:block;
+	padding:8px 10px 8px 40px;
+	background:#FFF;
+	color:#333;
+	text-decoration:none;
+}
+.expan ul li a:hover {
+	background:#F2F2F2;
+}
+/* Fallbacks */
+.expan .no-js ul {
+	display:none;
+}
+.expan .no-js:hover ul {
+	display:block;
+}
