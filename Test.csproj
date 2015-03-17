@@ -50,6 +50,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\demo.css" />
+    <Content Include="css\fakeLoader.css" />
+    <Content Include="css\grid.css" />
+    <Content Include="css\normalize.css" />
     <Content Include="css\simpletextrotator.css" />
     <Content Include="css\StyleSheet1.css" />
     <Content Include="css\StyleSheet2.css" />
@@ -59,8 +65,13 @@
     <Content Include="js\fakeLoader.min.js" />
     <Content Include="js\jquery-1.9.1.js" />
     <Content Include="js\jquery.simple-text-rotator.js" />
+    <Content Include="js\viewportchecker.js" />
+    <Content Include="lamp.aspx" />
+    <Content Include="mac.aspx" />
+    <Content Include="menuResponsive.aspx" />
     <Content Include="test0.aspx" />
     <Content Include="test1.aspx" />
+    <Content Include="test2.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -77,6 +88,27 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="lamp.aspx.cs">
+      <DependentUpon>lamp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lamp.aspx.designer.cs">
+      <DependentUpon>lamp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mac.aspx.cs">
+      <DependentUpon>mac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mac.aspx.designer.cs">
+      <DependentUpon>mac.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuResponsive.aspx.cs">
+      <DependentUpon>menuResponsive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuResponsive.aspx.designer.cs">
+      <DependentUpon>menuResponsive.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="test0.aspx.cs">
       <DependentUpon>test0.aspx</DependentUpon>
@@ -91,6 +123,13 @@
     </Compile>
     <Compile Include="test1.aspx.designer.cs">
       <DependentUpon>test1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test2.aspx.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test2.aspx.designer.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

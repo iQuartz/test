@@ -4,74 +4,25 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <link rel="stylesheet" href="css/StyleSheet2.css">
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>MySite</title>
+    <meta name="description" content="A simple guide to responsive design.">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/grid.css" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    <div itemprop="articleBody" class="entry-body clear">
-          <h2 class="เมนู-แนวนอน-เมนูหลัก_สองชั้น_สี่">Main Navigation 1</h2>
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            </ul>
-            <h2 class="เมนู-แนวนอน-เมนูหลัก_สองชั้น_ห้า">Main Navigation 2</h2>
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a>
-            <ul>
-            <li><a href="#">unde omnis iste</a></li>
-            <li><a href="#">voluptatem</a></li>
-            <li><a href="#">beatae vitae</a></li>
-            <li><a href="#">quisquam</a></li>
-            </ul>
-            </li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            </ul>
-            <h2 class="เมนู-แนวนอน-เมนูหลัก_สองชั้น_หก">Main Navigation 3</h2>
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a>
-            <ul>
-            <li><a href="#">laboriosam</a></li>
-            <li><a href="#">consequatur</a></li>
-            <li><a href="#">pain was</a></li>
-            <li><a href="#">happiness</a></li>
-            </ul>
-            </li>
-            <li><a href="#">Products 2</a>
-            <ul>
-            <li><a href="#">unde omnis</a></li>
-            <li><a href="#">voluptatem</a>
-            <ul>
-            <li><a href="#">unde omnis</a></li>
-            <li><a href="#">voluptatem</a></li>
-            <li><a href="#">beatae vitae</a></li>
-            <li><a href="#">quisquam</a></li>
-            </ul>
-            </li>
-            <li><a href="#">beatae vitae</a></li>
-            <li><a href="#">quisquam</a>
-            <ul>
-            <li><a href="#">unde omnis</a></li>
-            <li><a href="#">voluptatem</a></li>
-            <li><a href="#">beatae vitae</a></li>
-            <li><a href="#">quisquam</a></li>
-            </ul>
-            </li>
-            </ul>
-            </li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            </ul>
-         </div>
-    </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
     </form>
 </body>
 </html>
